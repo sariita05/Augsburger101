@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Augsburger 101</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Syncopate" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div>
+    <nav class="navbar navbar-expand-md bg_black navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo/logo_short.png" alt="Augsburger 101 logo" height="30">
+      </a>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div id="navbar" class="navbar-collapse collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="display: none">
+            <a class="nav-link active" href="#section1">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interactions">INTERACTIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#appFlow">APP FLOW</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">DECISION</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#technology">TECHNOLOGY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">TEAM</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <main>
+    <section id="section1" style="padding: 0!important">
+      <video width="100%" autoplay loop muted>
+        <source src="images/montage.mp4" type="video/mp4">
+      </video>
+    </section>
+
+
+
+    <section class="bg_white" id="section2">
+      <div class="container">
+        <h2>Augsburger 101</h2>
+        <p>A location-based Augmented Reality game for young travellers that aims to provide fun experience walking around the city of Augsburg. It takes user to spots that are not-so-popular and lets them perform interactions related to local
+          traditions with phone movements.</p>
+      </div>
+      <div class="container">
+        <video width="80%" controls>
+          <source src="images/video2.mp4" type="video/mp4">
+        </video>
+</div>
+    </section>
+
+    <section class="bg_apricot" id="interactions">
+      <div class="container">
+        <!-- <h2>INTERACTIONS</h2>
+      <p>This is some text.</p> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h6>MAKE A PRETZEL</h6>
+              <video width="100%" autoplay loop muted>
+                <source src="images/interactionVideos/pretzel.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-4">
+              <h6>POUR WEISSBIER</h6>
+              <video width="100%" autoplay loop muted>
+                <source src="images/interactionVideos/beer.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-4">
+              <h6>CATCH FISH</h6>
+              <video width="100%" autoplay loop muted>
+                <source src="images/interactionVideos/fishing.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg_white" id="appFlow">
+      <div class="container">
+        <h2>App Flow</h2>
+        <h6>The Story</h6>
+        <p>You visit the Open Air Theater in Augsburg to watch a play, but the tickets are sold out already. The ticket seller makes a deal to let you in if you go on a quest to collect some traditional Augsburger items for her— a pretzel, a fish
+          and
+          a glass of weissbier.</p>
+
+
+        <!-- Carousel code from w3 schools bootstrap 4 -->
+        <div class="container mt-3">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators
+            <ul class="carousel-indicators" style="padding-top: 3em">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>-->
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <!-- SCREEN 1 Selection-->
+              <div class="carousel-item active">
+                <div class="phone">
+                  <video height="500" autoplay loop muted>
+                    <source src="images/appFlowVideos/Selection.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- drei spalten drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/plate1.png" alt="plate1" height="80px">
+                      <h6>Choice of where to go</h6>
+                      <p>To give freedom of choice based on interest and avoid dead ends when not able to complete task at one of the spots.</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/plate2.png" alt="plate2" height="80px">
+                      <h6>Plate Metaphor</h6>
+                      <p>Since all collectibles are food items, it would be more relevant to have a plate to see the collected/uncollected items and track progress.</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/plate3.png" alt="plate3" height="80px">
+                      <h6>Button replaced with collected item when completed</h6>
+                      <p>To show what tasks are completed and hence remove the option to go to completed spots.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- SCREEN 2 Navigation-->
+              <div class="carousel-item">
+                <div class="phone">
+                  <video height="500" autoplay loop muted>
+                    <source src="images/appFlowVideos/Walking.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- zwei spalten drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/arrow.png" alt="plate1" height="80px">
+                      <h6>Arrow showing only general direction and distance</h6>
+                      <p>To make the walking between spots more exciting by having the user to look around for figure out the route to get to the spot.</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/lowerHalf.png" alt="plate2" height="80px">
+                      <h6>While walking, interaction area is only the lower part of the phone</h6>
+                      <p>To make it easier to use the phone one handed. Information is also displayed only in the lower half so that it can be is easily noticed.</p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- SCREEN 3 Glow-->
+              <div class="carousel-item container col-sm-12">
+                <div class="phone ">
+                    <video height="500" autoplay loop muted>
+                      <source src="images/appFlowVideos/Glow.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- eine spalte drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/glowing.png" alt="plate1" height="80px">
+                      <h6>Glowing object at interaction spot</h6>
+                      <p>To make the interaction spot identifiable as it might be difficult to locate virtual objects while walking around in real spaces and to also keep the feedback visual so as to avoid disturbances from surroundings or the need
+                        for additional peripherals like earphones.</p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- SCREEN 4 How to interact-->
+              <div class="carousel-item">
+                <div class="phone">
+                  <video height="500" autoplay loop muted>
+                    <source src="images/appFlowVideos/Showmehow.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- eine spalte drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/showMeHow2.png" alt="plate1" height="60px">
+                      <h6>'Show me how' video</h6>
+                      <p>Video demonstration of how to move the phone to interact makes it easier to understand what is to be done and as going through could prove to be difficult, especially when outdoors.</p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- SCREEN 5 Interaction-->
+              <div class="carousel-item">
+                <div class="phone">
+                  <video height="500" autoplay loop muted>
+                    <source src="images/appFlowVideos/Interaction.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- eine spalte drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/instruction.png" alt="plate1" height="80px">
+                      <h6>Instructions accessible by tapping the ‘Tip’ icon</h6>
+                      <p>This enables referring to instructions whenever needed and eliminates the need to show instructions again if the interaction is not done correctly.</p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- SCREEN 6 Completion-->
+              <div class="carousel-item">
+                <div class="phone">
+                  <video height="500" autoplay loop muted>
+                    <source src="images/appFlowVideos/Conclusion.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- eine spalte drunter -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <img src="images/appFlow/plate3.png" alt="plate1" height="80px">
+                      <h6>Collectible object moves to plate once task completed</h6>
+                      <p>To let user know what happens to the object on task completion and also provide a feeling of progress by adding the object to the plate.</p>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    <div class="container bg_white" id="section4">
+      <h2>(DECISION)</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/pretzel.jpg" alt="pretzel" width="50" height="50">
+            <p>A location-based Augmented Reality game that aims to provide</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/pretzel.jpg" alt="pretzel" width="50" height="50">
+            <p>A location-based Augmented Reality game that aims to provide</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/pretzel.jpg" alt="pretzel" width="50" height="50">
+            <p>A location-based Augmented Reality game that aims to provide</p>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+
+    <section class="bg_apricot" id="technology">
+      <div class="container">
+        <h2>Technology</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-1">
+              <img src="images/technique/icon1.png" alt="android" height="30px">
+              <p>Android</p>
+            </div>
+            <div class="col-sm-1">
+              <img src="images/technique/icon2.png" alt="unity" height="30px">
+              <p>Unity</p>
+            </div>
+            <div class="col-sm-1">
+              <img src="images/technique/icon3.png" alt="ar_core" height="30px">
+              <p>Ar Core</p>
+            </div>
+            <div class="col-sm-1">
+              <img src="images/technique/icon4.png" alt="vuforia" height="30px">
+              <p>Vuforia</p>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+          <div style="margin-top: 50px">
+            <img src="images/technique/technique2x.png" alt="technique" width="100%">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class=" bg_white" id="team">
+      <div class="container">
+        <h2>Team</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+              <img src="images/team/varun.png" alt="varun" width="75%">
+              <p>Varun<br><a href="mailto:varunvikash12@gmail.com">varunvikash12@gmail.com</a></p>
+
+            </div>
+            <div class="col-sm-2">
+              <img src="images/team/sarah.png" alt="sarah" width="75%">
+              <p>Sarah<br>
+                <a href="mailto:eidenhammer.s@gmx.de">eidenhammer.s@gmx.de</a></p>
+            </div>
+            <div class="col-sm-2">
+              <img src="images/team/jaysurya.png" alt="jaysurya" width="75%">
+              <p>Jaysurya<br>
+                <a href="mailto:jayasurya221b@gmail.com">jayasurya221b@gmail.com</a></p>
+            </div>
+            <div class="col-sm-2">
+              <img src="images/team/ankur.png" alt="ankur" width="75%">
+              <p>Ankur<br>
+                <a href="mailto:ankursinghrana.ar@gmail.com">ankursinghrana.ar@gmail.com</a></p>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+        <h2>GUIDES</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+              <p>Prof. Dr. Thomas Rist<br>
+                <a href="mailto:thomas.Rist@hs-augsburg.de">thomas.Rist@hs-augsburg.de</a></p>
+            </div>
+            <div class="col-sm-3">
+              <p>Prof. KP Ludwig John<br>
+                <a href="mailto:john@hs-augsburg.de">john@hs-augsburg.de</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="bg_apricot" style="padding: 50px 0px">
+      <a href="https://www.hs-augsburg.de/">
+        <img src="images/logo/hs_aux_logo.svg" alt="Hochschule_Augsburg" style="height:42px;border:0;margin-right:20px;">
+      </a>
+      <a href="http://europeanprojectsemester.eu/">
+        <img src="images/logo/eps_logo.png" alt="European_Project_Semester" style="height:42px;border:0;">
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>

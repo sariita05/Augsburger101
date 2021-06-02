@@ -1,0 +1,64 @@
+body {
+  background-color: #000021;
+  color: #c3c3c3;
+  font-family: Helvetica;
+  text-align: center !important;
+}
+
+p, h6 {
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+  font-size: 8pt;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px!important;
+  letter-spacing: 0.3em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg_white {
+  background-color: #FFFFFF;
+}
+
+.bg_apricot {
+  background-color: #ffeb9c;
+}
+.bg_black {
+  background-color: #000000c4;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-size: 8pt;
+}
+
+.carousel-indicators li {
+ background-color: black!important;
+}
+
+.carousel-control-next-icon  {
+    background-image: url("../images/indicator/right.svg")!important;
+  }
+.carousel-control-prev-icon {
+  background-image: url("../images/indicator/left.svg")!important;
+}
+
+.carousel-item .phone video{
+  padding: 2em 0em;
+}
